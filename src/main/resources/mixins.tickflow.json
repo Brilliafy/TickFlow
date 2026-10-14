@@ -1,0 +1,18 @@
+{
+  "package": "com.cleanroommc.tickflow.mixin",
+  "required": true,
+  "refmap": "mixins.tickflow.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PathNavigateMixin",
+    "EntityItemMixin",
+    "TileEntityMobSpawnerMixin",
+    "TileEntityChestMixin",
+    "MobSpawnerBaseLogicAccessor",
+    "WorldCollisionMixin"
+  ],
+  "server": [],
+  "client": []
+}
